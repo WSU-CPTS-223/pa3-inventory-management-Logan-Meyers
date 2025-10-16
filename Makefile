@@ -1,10 +1,13 @@
-out: clean compile execute
+SOURCE = $(wildcard src/*.cpp)
+OUTFILE = main
 
-compile: main.cpp
-	g++ -g -Wall -std=c++14 main.cpp -o mainexe
-
-execute: mainexe
-	./mainexe
+all: run
 
 clean:
-	rm -f mainexe
+	rm -f $(OUTFILE)
+
+build: clean
+	clear && g++ -std=c++11 -lstdc++ -Wall -Wextra -Wpedantic -g $(SOURCE) -o $(OUTFILE) 
+
+run: build
+	clear && ./$(OUTFILE)
