@@ -7,3 +7,13 @@ We expect a fully functioninig command line REPL application for an inventory qu
 `make` will compile and execute the skeleton code
 
 Feel free to modify Makefile as you see fit.
+
+# NOTE: This is not going to be completed.
+
+May this be my dropped PA.
+
+You may look at my notes in [amazonInventorySystem.hpp](./include/amazonInventorySystem.hpp) for some notes on what I was _going_ to do.
+
+Thank you for your time, enjoy the rest of your day.
+
+\- Logan
